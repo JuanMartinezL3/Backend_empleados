@@ -1,0 +1,16 @@
+{
+    "version":1,
+    "builds":[
+        {
+            "src":"app.js", "use":"@vercel/node"
+        }
+    ],
+    "routues":[
+        {
+            "src":"/(*)", "dest":"/app.js"
+        }
+    ],
+    "env":{
+        "NODE_ENV":"production"
+    }
+}
