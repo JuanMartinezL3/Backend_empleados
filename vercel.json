@@ -7,7 +7,7 @@
     ],
     "routues":[
         {
-            "src":"/(*)", "dest":"/app.js"
+            "src":"/(.*)", "dest":"/app.js"
         }
     ],
     "env":{
