@@ -1,7 +1,7 @@
 const mongoose = require("mongoose")
 
 //esquema del colaborador
-const colaboradorModel = new mongoose.Schema(
+const empleadoModel = new mongoose.Schema(
     {  
         nombre:{
             type: String 
@@ -27,5 +27,5 @@ const colaboradorModel = new mongoose.Schema(
 }
 )
    //Modelo de datos del usuario
-const ModelColaborador = mongoose.model("colaboradores", colaboradorModel);
-module.exports = ModelColaborador; 
+const ModelEmpleado = mongoose.model("empleados", empleadoModel);
+module.exports = ModelEmpleado; 
